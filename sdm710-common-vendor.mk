@@ -41,7 +41,24 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsmedia_jni.so \
     vendor/meizu/sdm710-common/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/meizu/sdm710-common/proprietary/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librcc.so \
-    vendor/meizu/sdm710-common/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.imsrtpservice@1.0.so
+    vendor/meizu/sdm710-common/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/meizu/sdm710-common/proprietary/bin/hw/android.hardware.configstore@1.0-service:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.configstore@1.0-service \
+    vendor/meizu/sdm710-common/proprietary/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.drm@1.0-service.widevine \
+    vendor/meizu/sdm710-common/proprietary/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.graphics.composer@2.1-service \
+    vendor/meizu/sdm710-common/proprietary/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.media.omx@1.0-service \
+    vendor/meizu/sdm710-common/proprietary/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.wifi@1.0-service \
+    vendor/meizu/sdm710-common/proprietary/bin/mm-pp-dpps:$(TARGET_COPY_OUT_SYSTEM)/bin/mm-pp-dpps \
+    vendor/meizu/sdm710-common/proprietary/bin/pm-service:$(TARGET_COPY_OUT_SYSTEM)/bin/pm-service \
+    vendor/meizu/sdm710-common/proprietary/bin/slim_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/slim_daemon \
+    vendor/meizu/sdm710-common/proprietary/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/android.hardware.audio@2.0-impl.so \
+    vendor/meizu/sdm710-common/proprietary/lib/libmms_hal_vstab.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmms_hal_vstab.so \
+    vendor/meizu/sdm710-common/proprietary/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/meizu/sdm710-common/proprietary/lib64/hw/android.hardware.graphics.composer@2.1-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/android.hardware.graphics.composer@2.1-impl.so \
+    vendor/meizu/sdm710-common/proprietary/lib64/hw/android.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/android.hardware.sensors@1.0-impl.so \
+    vendor/meizu/sdm710-common/proprietary/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
+    vendor/meizu/sdm710-common/proprietary/lib64/libhwminijail.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhwminijail.so \
+    vendor/meizu/sdm710-common/proprietary/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensorndkbridge.so \
+    vendor/meizu/sdm710-common/proprietary/lib64/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
     QtiTelephonyService \
