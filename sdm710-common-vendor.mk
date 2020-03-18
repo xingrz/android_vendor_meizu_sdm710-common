@@ -96,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/lib/libQTEEConnector_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libQTEEConnector_system.so \
     vendor/meizu/sdm710-common/proprietary/lib/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libadsprpc_system.so \
     vendor/meizu/sdm710-common/proprietary/lib/libarcsoft_supernight.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_supernight.so \
-    vendor/meizu/sdm710-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/meizu/sdm710-common/proprietary/lib/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfastcvdsp_stub.so \
     vendor/meizu/sdm710-common/proprietary/lib/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdsprpc_system.so \
     vendor/meizu/sdm710-common/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
@@ -123,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/lib64/libGPTEE_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libGPTEE_system.so \
     vendor/meizu/sdm710-common/proprietary/lib64/libQTEEConnector_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libQTEEConnector_system.so \
     vendor/meizu/sdm710-common/proprietary/lib64/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libadsprpc_system.so \
-    vendor/meizu/sdm710-common/proprietary/lib64/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioroute.so \
     vendor/meizu/sdm710-common/proprietary/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfastcvdsp_stub.so \
     vendor/meizu/sdm710-common/proprietary/lib64/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmdsprpc_system.so \
     vendor/meizu/sdm710-common/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
@@ -163,15 +161,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/meizu/sdm710-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/meizu/sdm710-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/meizu/sdm710-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/meizu/sdm710-common/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/meizu/sdm710-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/meizu/sdm710-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/meizu/sdm710-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/meizu/sdm710-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/meizu/sdm710-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/meizu/sdm710-common/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
-    vendor/meizu/sdm710-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/meizu/sdm710-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/meizu/sdm710-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/meizu/sdm710-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
@@ -184,38 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
     vendor/meizu/sdm710-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/meizu/sdm710-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pfp.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pm4.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pm4.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pm4.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a530v1_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pfp.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a530v1_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pm4.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v2_seq.fw2 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a615_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b02 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a615_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.elf \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a615_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.mdt \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
-    vendor/meizu/sdm710-common/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
@@ -229,7 +186,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
-    vendor/meizu/sdm710-common/proprietary/vendor/lib/hw/audio.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm710.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/hw/gralloc.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.sdm710.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/hw/hwcomposer.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.sdm710.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.qcom.so \
@@ -289,7 +245,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_low_light_hdr.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libarcsoft_makeup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_makeup.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
-    vendor/meizu/sdm710-common/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a4xx.so \
@@ -388,7 +343,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
-    vendor/meizu/sdm710-common/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
@@ -443,7 +397,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
-    vendor/meizu/sdm710-common/proprietary/vendor/lib64/hw/audio.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm710.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/hw/gralloc.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.sdm710.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/hw/hwcomposer.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.sdm710.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.qcom.so \
@@ -495,7 +448,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
-    vendor/meizu/sdm710-common/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a3xx.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a4xx.so \
@@ -584,7 +536,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
-    vendor/meizu/sdm710-common/proprietary/vendor/lib64/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress_vendor.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
     vendor/meizu/sdm710-common/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
